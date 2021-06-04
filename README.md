@@ -7,7 +7,7 @@ O desafio consiste em desenvolver uma aplicação Flutter Mobile que apresenta u
 https://github.com/akabab/superhero-api/tree/master/api
 
 
-Utilizei neste projeto o Flutter na versão 2.0.6
+Utilizei neste projeto o Flutter na versão 2.0.6 e Clean Architecture como Design Pattern.
 
 Packages utilizados:
   - GetX;
