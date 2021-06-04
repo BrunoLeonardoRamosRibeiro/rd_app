@@ -47,20 +47,18 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 children: [
                   Padding(
+                    key: keyButton,
                     padding: const EdgeInsets.all(24.0),
-                    child: Container(
-                      key: keyButton,
-                      child: Obx(
-                            () =>
-                            CustomTextWidget(
-                              controller: controller.searchController.value,
-                              labelText: 'Pesquisa [${controller.typeOfSearch
-                                  .value}]',
-                              onChanged: (text) {
-                                controller.setSuperheroesToDisplay(text);
-                              },
-                            ),
-                      ),
+                    child: Obx(
+                          () =>
+                          CustomTextWidget(
+                            controller: controller.searchController.value,
+                            labelText: 'Pesquisa [${controller.typeOfSearch
+                                .value}]',
+                            onChanged: (text) {
+                              controller.setSuperheroesToDisplay(text);
+                            },
+                          ),
                     ),
                   ),
                   Obx(

@@ -17,6 +17,7 @@ class CustomTextWidget extends StatelessWidget {
   final Widget suffixIcon;
 
   CustomTextWidget({
+    Key key,
     this.controller,
     this.focusNode,
     this.onChanged,
@@ -29,13 +30,14 @@ class CustomTextWidget extends StatelessWidget {
     this.textInputAction,
     this.validator,
     this.suffixIcon,
-  });
+  }): super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       child: TextFormField(
+        key: key,
         obscureText: obscureText?? false,
         focusNode: focusNode,
         textInputAction: textInputAction,
