@@ -1,16 +1,29 @@
-# rd_app
+# Super Heroes Listing
+Desafio RD Raia Drogasil (Listagem de Super Heróis)
 
-Desafio RD
+## Projeto
 
-## Getting Started
+O desafio consiste em desenvolver uma aplicação Flutter Mobile que apresenta uma listagem de heróis utilizando a API abaixo:
+https://github.com/akabab/superhero-api/tree/master/api
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Utilizei neste projeto o Flutter na versão 2.0.6 e Clean Architecture como Design Pattern.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Packages utilizados:
+  - GetX;
+  - Intl; 
+  - Googlefonts;
+  - Http;
+  - Mockito;
+  - Dartz;
+  - Equatable;
+  - Google_fonts;
+  - Cached_network_image; e
+  - Tutorial_coach_mark.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Link para demonstração: https://youtu.be/jEYWjMY0cA8
+
+Link para download do apk: https://drive.google.com/file/d/1ZkNUFBkBbWx2hM9bSRI-dnVs3XzYm7zY/view?usp=sharing
+
+
+
