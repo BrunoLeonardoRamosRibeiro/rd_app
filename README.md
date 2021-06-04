@@ -21,7 +21,7 @@ Packages utilizados:
   - Cached_network_image; e
   - Tutorial_coach_mark.
 
-Link para demonstração: https://youtu.be/jEYWjMY0cA8
+Link para demonstração: https://youtu.be/T9dYlldeS0Y
 
 Link para download do apk: https://drive.google.com/file/d/1ZkNUFBkBbWx2hM9bSRI-dnVs3XzYm7zY/view?usp=sharing
 
